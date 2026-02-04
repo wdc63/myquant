@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "password": "change-me"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5000
+  },
+  "frontend_dev": {
+    "vite_port": 5173
+  },
+  "monitoring": {
+    "port_range_start": 8051,
+    "port_range_end": 8100
+  },
+  "custom_libraries": []
+}

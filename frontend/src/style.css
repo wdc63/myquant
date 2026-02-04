@@ -1,0 +1,64 @@
+/*
+  This file contains global styles and overrides.
+  Theme variables and core layout styles are in theme.css.
+*/
+
+/* Global styles from App.vue */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Global utility classes */
+.positive { color: var(--positive-color) !important; }
+.negative { color: var(--negative-color) !important; }
+.neutral-value { color: var(--text-primary) !important; }
+
+.no-data {
+    text-align: center;
+    color: var(--header-info-color);
+    padding: 40px 0;
+}
+
+/* Element Plus Overrides */
+.el-button {
+  --el-button-font-weight: 500;
+}
+
+body.dark-mode {
+  --el-color-primary: var(--primary-color);
+  --el-color-success: var(--negative-color);
+  --el-color-warning: var(--warning-color);
+  --el-color-danger: var(--positive-color);
+  --el-color-error: var(--positive-color);
+  --el-color-info: var(--header-info-color);
+
+  --el-fill-color-blank: var(--bg-primary);
+  --el-bg-color: var(--bg-primary);
+  --el-bg-color-overlay: var(--card-bg);
+  --el-bg-color-page: var(--bg-primary);
+  --el-border-color: var(--border-color);
+  --el-border-color-light: var(--border-color);
+  --el-border-color-lighter: var(--border-color);
+  --el-border-color-extra-light: var(--border-color);
+  --el-text-color-primary: var(--text-primary);
+  --el-text-color-regular: var(--text-primary);
+  --el-text-color-secondary: var(--header-info-color);
+  --el-text-color-placeholder: var(--header-info-color);
+  --el-disabled-bg-color: var(--table-header-bg);
+  --el-disabled-text-color: var(--header-info-color);
+  --el-disabled-border-color: var(--border-color);
+}
+
+.el-message, .el-message-box__wrapper {
+  --el-bg-color-overlay: var(--card-bg) !important;
+  --el-text-color-primary: var(--text-primary) !important;
+  --el-border-color: var(--border-color) !important;
+}

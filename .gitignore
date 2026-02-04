@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Runtime data
+*.pkl
+*.csv
+*.sqlite3
+myquant/data/
+strategies/**/qtrader_runs/
+strategies/**/backtest/
+strategies/**/simulation/

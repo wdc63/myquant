@@ -1,0 +1,24 @@
+{
+  "auth": {
+    "password": "admin123"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000
+  },
+  "frontend_dev": {
+    "vite_port": 5173
+  },
+  "monitoring": {
+    "port_range_start": 8051,
+    "port_range_end": 8100
+  },
+  "custom_libraries": [
+    {
+      "name": "tushare",
+      "version": "1.4.24",
+      "description": "asdasdasdasd",
+      "installed_at": null
+    }
+  ]
+}

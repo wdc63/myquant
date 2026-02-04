@@ -1,0 +1,49 @@
+# MyQuant Platform Dependencies
+
+# ====== 平台框架依赖 ======
+# Web Framework
+Flask>=2.2.0
+Flask-SocketIO>=5.3.0
+Flask-CORS>=4.0.0
+
+# WebSocket
+python-socketio>=5.9.0
+python-socketio[client]>=5.9.0
+
+# System utilities
+psutil>=5.9.0
+requests>=2.28.0
+PyYAML>=6.0
+
+# ====== 用户策略可用的金融计算库 ======
+# 数据处理基础
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 金融性能分析
+empyrical-reloaded>=0.5.8
+
+# 技术指标计算
+ta>=0.11.0
+TA-Lib>=0.4.0
+
+# 统计分析
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# 机器学习
+scikit-learn>=1.3.0
+
+# 数据可视化
+matplotlib>=3.7.0
+
+# 日期时间处理
+python-dateutil>=2.8.0
+
+# ====== 本地SDK（需要从父目录安装） ======
+# QTrader Framework (local)
+# Assumes qtrader is installed or available in parent directory
+
+# Stock API SDK (local)
+
+# TDX API SDK (local)
