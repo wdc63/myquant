@@ -17,6 +17,17 @@
 - 🖥️ 监控：自动分配端口并代理访问 QTrader 内置监控页
 - 📦 产物：报告、日志、workspace 文件浏览与下载
 
+
+---
+
+## 截图 🖼️
+
+![MyQuant Screenshot 1](screenshot/sc1.png)
+![MyQuant Screenshot 2](screenshot/sc2.png)
+![MyQuant Screenshot 3](screenshot/sc3.png)
+![MyQuant Screenshot 4](screenshot/sc4.png)
+![MyQuant Screenshot 5](screenshot/sc5.png)
+
 ---
 
 ## 快速开始 🚀
