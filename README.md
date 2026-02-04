@@ -2,7 +2,7 @@
 
 > MyQuant 是一个面向 **QTrader** 的 WebUI：把策略开发、运行与回测产物管理做成“可视化工作台”。
 
-- 🔗 **和 QTrader 的关系**：MyQuant 负责 UI/平台能力；回测/模拟执行由 QTrader 引擎完成
+- 🔗 **和 QTrader 的关系**：MyQuant 负责 UI/平台能力；回测/模拟执行由 QTrader 引擎完成（QTrader：<https://github.com/wdc63/pqtrader>）
 - 🔌 **数据接入方式**：通过 QTrader 的 `DataProvider`（数据合约）接入任意数据源
 - 🧱 **可扩展**：内置“平台库管理”（在线安装/卸载第三方 Python 包），把研究环境做成可控的“插件化工具箱”
 
